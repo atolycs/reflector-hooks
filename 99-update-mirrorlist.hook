@@ -1,0 +1,11 @@
+[Trigger]
+Operation = Install
+Operation = Upgrade
+Type = Package
+Target = pacman-mirrorlist
+
+[Action]
+Description = Updating pacman mirrorlist...
+When = PostTransaction
+Depends = reflector
+Exec = /usr/bin/reflector @/etc/xdg/reflector/reflector.conf

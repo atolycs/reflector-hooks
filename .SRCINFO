@@ -1,0 +1,12 @@
+pkgbase = reflector-hook
+	pkgdesc = Update Pacman mirrorlist hook
+	pkgver = 1.0.0
+	pkgrel = 1
+	url = https://github.com/atolycs/reflector-hook
+	arch = any
+	license = MIT
+	depends = reflector
+	source = 99-update-mirrorlist.hook
+	sha256sums = 5f8d06995aa28bada32e411dae0ca4b868e6768c21f5432c97346ff39142fad5
+
+pkgname = reflector-hook
